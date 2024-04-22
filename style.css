@@ -1,21 +1,24 @@
 .bordas {
-   max-width: 835px; /* ocupa 1200px da tela */
+   max-width: 935px; /* ocupa 1200px da tela */
    border: 3px solid rgb(68, 68, 68);
    border-radius: 0px 10px 0px 10px ;
    padding-left: 10px;
    padding: 10px 10px 10px 10px;
    padding-bottom: 6px;
    padding-top: 20px;
-   background-color: rgb(211, 44, 136);
+   background-color: rgb(86, 86, 86);
+   margin-top: 20px;
+   color: white;
 }
 
-
-.h1 {
-   font-family: Algerian, sans-serif;
+h1 {
+   font-family: sans-serif;
+   color: white;
+ 
 }
 
 .b {
-   border: 3px solid black;
+   border: 3px solid rgb(94, 94, 94);
    transition: transform 0.3s ease;
  }
  
@@ -33,29 +36,32 @@
 }
 
 body{
-   font-family: Algerian, sans-serif;
+   font-family:  sans-serif;
     background: linear-gradient(to top, rgb(255, 255, 255), rgb(44, 148, 233)  ); 
 }
 
 /* Footer e redes sociais */
 
 footer {
-   max-width: 835px; /* ocupa 835px da tela */
-   border: 3px solid rgb(68, 68, 68);
-   background-color: rgb(211, 46, 134);
+   max-width: 850px; /* ocupa 835px da tela */
+   border: 3px solid rgb(94, 94, 94);
+   background-color: rgb(86, 86, 86);
    padding: 20px;
    text-align: center;
    color: white;
    border-radius: 10px;
    padding-left: 10px;
+   margin-bottom: 20px; /* Margem inferior para distanciar do conteúdo abaixo */
 }
 
 .redes-sociais {
    margin-bottom: 15px;
+ 
 }
 
 .redes-sociais a {
    margin-right: 10px;
+
 }
 
 .redes-sociais img {
