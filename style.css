@@ -1,6 +1,6 @@
 .bordas {
    max-width: 835px; /* ocupa 1200px da tela */
-   border: 3px solid rgb(96, 2, 52);
+   border: 3px solid rgb(68, 68, 68);
    border-radius: 0px 10px 0px 10px ;
    padding-left: 10px;
    padding: 10px 10px 10px 10px;
@@ -41,7 +41,7 @@ body{
 
 footer {
    max-width: 835px; /* ocupa 835px da tela */
-   border: 3px solid rgb(96, 2, 52);
+   border: 3px solid rgb(68, 68, 68);
    background-color: rgb(211, 46, 134);
    padding: 20px;
    text-align: center;
