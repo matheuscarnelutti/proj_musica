@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    min-width: 320px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;  
+     font-family:  sans-serif;
+         background: linear-gradient(to top, rgb(255, 255, 255), rgb(44, 148, 233)  ); 
+
+    
+   
+}
+
+header {
+    background-color: #0a0a0a;
+    padding: 20px 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Manterá o menu centralizado */
+    text-transform: uppercase;
+}
+
+header img {
+    width: 60px;
+    height: auto;
+    margin-right: 20px; /* Ajuste a margem entre a imagem e o menu */
+   
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    }
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+} 
+
+nav ul li a {
+    text-decoration: none;
+    color: #fca311;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-right: 30px;
+  
+}
+
+/* Estilo dos links do menu quando passar o mouse por cima */
+nav ul li a:hover {
+    background-color: #fca311;
+    color: #ffffff;
+}
+
+.sobre {
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: -120px;
+}
+
+.missao, .time{
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: -20px;
+}
+
+.sobre .missao .time p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #0a0a0a;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+
+main{
+    margin-top: 150px;
+}
+
+/* Footer e redes sociais */
+ 
+footer {
+    max-width: 850px; /* ocupa 835px da tela */
+    border: 3px solid rgb(94, 94, 94);
+    background-color: rgb(86, 86, 86);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px; /* Margem inferior para distanciar do conteúdo abaixo */
+    margin-top: 180px;
+ }
+ 
+ .redes-sociais {
+    margin-bottom: 15px;
+  
+ }
+ 
+ .redes-sociais a {
+    margin-right: 10px;
+ 
+ }
+ 
+ .redes-sociais img {
+    width: 30px; /* Ajuste conforme necessário */
+    height: 30px; /* Ajuste conforme necessário */
+ }
+ 
